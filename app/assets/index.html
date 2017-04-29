@@ -11,6 +11,9 @@
   <script>require('initialize');</script>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app" ng-app="">
+	<p>Message : <input type="text" ng-model="msg" placeholder="Enter message here"></p>
+	<p>You're typing: {{msg}}</p>
+  </div>
 </body>
 </html>
